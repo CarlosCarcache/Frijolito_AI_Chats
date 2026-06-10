@@ -1,0 +1,10 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Home from "../components/Blocks/home/Home";
+---
+
+<Layout title="Frijolito AI - Gemini Playground">
+  <div class="py-8">
+    <Home client:only="react" />
+  </div>
+</Layout>
